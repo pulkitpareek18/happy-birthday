@@ -14,11 +14,8 @@
             background-image: linear-gradient(pink, white, red, purple, blue);
         }
     </style>
-    <script>
-        window.onload = function() {
-            var context = new AudioContext();
-        }
-    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -68,9 +65,10 @@
         </div>
     </section>
     <center class="my-12">
-        <iframe src="Kyon Gaye Sare Junglee.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-
-        <audio id="audioID" autoplay loop> <source src="Kyon Gaye Sare Junglee.mp3"  type="audio/mp3"></audio>
+        <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio id="player" autoplay controls loop>
+        <source src="Kyon Gaye Sare Junglee.mp3" type="audio/mp3">
+    </audio>
 
 
     </center>
