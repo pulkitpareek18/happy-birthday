@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday HEMANT </title>
+    <link rel="shortcut icon" href="img/1.jpg" type="image/x-icon">
+    <script src="tailwind.js"></script>
+    <script src="typewriter.js"></script>
+    <style>
+        body {
+            background-image: linear-gradient(pink, white, red, purple, blue);
+        }
+    </style>
+</head>
+
+<body>
+    <center class="my-12">
+        <audio src="Kyon Gaye Sare Junglee.mp3" controls autoplay></audio>
+    </center>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-col px-5 py-11 justify-center items-center">
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="img/5.jpg">
+            <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">HAPPY BIRTHDAY</h1>
+                <p id="typewriter" class="mb-8  sm:text-4xl text-3xl mb-4 font-medium text-blue-900"></p>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+
+            <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/1.jpg">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/4.jpg">
+                    </div>
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="img/3.jpg">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="img/6.jpg">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/2.jpg">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="img/7.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var app = document.getElementById('typewriter');
+
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+
+        typewriter.typeString('HEMANT')
+            .pauseFor(1100)
+            .deleteAll()
+            .typeString('HAPPY REHNE WALE')
+            .pauseFor(1100)
+            .deleteAll()
+            .typeString('BEWAJAH GYAAN DENE WALE')
+            .pauseFor(1100)
+            .deleteAll()
+            .typeString('YAARAAAAAA')
+            .pauseFor(1100)
+            .deleteAll()
+            .typeString('BHAIIIIIIIIIII')
+            .pauseFor(1100)
+            .start();
+    </script>
+
+
+
+
+</body>
+
+</html>
